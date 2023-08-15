@@ -40,5 +40,10 @@ else
    logger "Ошибка при создании резервной копии"
 fi
 ```
+### Пропишем строку в планировщик (crontab -e)
+
+```
+22 10 * * * /home/backup.sh
+```
 
 ![log](https://github.com/OhotinDY/sflt-03/blob/main/log.png)
