@@ -2,7 +2,7 @@
 ## Задание 1
 
 ```
-rsync -avPh --checksum --exclude=".*" . /tmp/backup
+rsync /home -avPh --checksum --exclude=".*" . /tmp/backup
 ```
 
 где:  
