@@ -15,6 +15,6 @@ rsync /home -avPh --checksum --exclude=".*" . /tmp/backup
 - --checksum: вычисляет хэш-суммы для всех файлов и сравнивает их между источником и приемником.
 - --exclude=".*": исключает все директории, начинающиеся с точки
 
-![rsync]()
+![rsync](https://github.com/OhotinDY/sflt-03/blob/main/rsync.png)
 
 ## Задание 2
