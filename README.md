@@ -46,4 +46,4 @@ fi
 22 10 * * * /home/backup.sh
 ```
 
-![log](https://github.com/OhotinDY/sflt-03/blob/main/log.png)
+![log](https://github.com/OhotinDY/sflt-03/blob/main/syslog.png)
