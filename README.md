@@ -16,5 +16,6 @@ rsync /home -avPh --checksum --exclude=".*" . /tmp/backup
 - --exclude=".*": исключает все директории, начинающиеся с точки
 
 ![rsync](https://github.com/OhotinDY/sflt-03/blob/main/rsync.png)
+![rsync](https://github.com/OhotinDY/sflt-03/blob/main/tmp.png)
 
 ## Задание 2
