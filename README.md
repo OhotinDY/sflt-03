@@ -19,3 +19,26 @@ rsync /home -avPh --checksum --exclude=".*" . /tmp/backup
 ![tmp](https://github.com/OhotinDY/sflt-03/blob/main/tmp.png)
 
 ## Задание 2
+### Скрипт backup.sh
+
+```
+#!/bin/bash
+
+# Путь к домашней директории
+source_dir="/home"
+
+# Путь к директории резервной копии
+backup_dir="/tmp/backup"
+
+# Выполнение rsync для создания зеркальной копии
+rsync -avPh --checksum "$source_dir" "$backup_dir"
+
+# Проверка кода возврата rsync и запись сообщения в журнал
+if [ $? -eq 0 ]; then
+   logger "Резервная копия создана"
+else
+   logger "Ошибка при создании резервной копии"
+fi
+```
+
+![log](https://github.com/OhotinDY/sflt-03/blob/main/log.png)
