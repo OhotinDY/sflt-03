@@ -43,7 +43,7 @@ fi
 ### Пропишем строку в планировщик (crontab -e)
 
 ```
-22 10 * * * /home/backup.sh
+37 10 * * * /home/backup.sh
 ```
 
 ![log](https://github.com/OhotinDY/sflt-03/blob/main/syslog.png)
